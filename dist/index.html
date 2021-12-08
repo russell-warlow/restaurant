@@ -10,13 +10,23 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+            <div class="tabs">
+                <div role="tablist" aria-label="menu">
+                    <button role="tab" aria-selected="true" id="home">Home</button>
+                    <button role="tab" aria-selected="false" id="menu">Menu</button>
+                    <button role="tab" aria-selected="false" id="contact">Contact</button>
+                </div>
+
+                <div id="content"> </div>
+            </div>
         
+
         <script src="main.js" async defer></script>
     </body>
 </html>

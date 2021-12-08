@@ -1,0 +1,14 @@
+button {
+    background: orangered;
+    color: white
+}
+
+button[aria-selected="true"] {
+    background: lightseagreen;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#content {
+    background: lightseagreen;
+}
